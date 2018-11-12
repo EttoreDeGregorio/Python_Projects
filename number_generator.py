@@ -1,7 +1,7 @@
 import random
 
 #Apertura file
-lista = open("lista.txt", "w" )
+lista = open("list.txt", "w" ) # "w" sta per WRITE
 
 try:
     for i in range(int(input('How many random numbers?: '))):

@@ -1,7 +1,11 @@
 #Script che permette di madare email da un account GMAIL
+#bisogna disattivare la doppia autenticazione e permettere l'utilizzo di applicazioni non sicure
 #email formate sono da testo
 
 import smtplib
+import subprocess as sp #per comandi di sistema
+
+sp.call('clear',shell=True)
 
 #Dati di Log-In
 gmail_user = ''#La tua mail
@@ -32,7 +36,7 @@ Subject: %s
 
 #Connesione al server
 try:
-	server = smtplib.SMTP('smtp.gmail.com')
+	server = smtplib.SMTP('smtp.gmail.com') #Indirizzo smtp del email provider
 	server.ehlo()
 	server.starttls()
 	print '\n\nConnected'
@@ -46,3 +50,6 @@ try:
 
 except:
 	print '\nError\n\n'
+
+aspetta = raw_input()
+sp.call('clear',shell=True)
