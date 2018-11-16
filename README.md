@@ -1,8 +1,10 @@
 # Python_Projects
 
-### This repository contains all the projects I made in Pyhton while I was lerning it
+### This repository contains all the projects I made in Pyhton while I was lerning it.
 
 
-**mail_sender.py**, this script lets you send emails(text only - no images, no attachements, ecc...) using your gmail account;
+**mail_sender.py**, this script lets you send emails (text only - no images, no attachments, ecc...) using your gmail account;
 
-**number_generator.py**, ramndomly generates numebers (1 -100) and writes them on a text file;
+**number_generator.py**, randomly generates numbers (1 - 100) and writes them in a text file;
+
+**location_weather.py**, check the weather forecast of the next 10 days;
