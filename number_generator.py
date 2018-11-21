@@ -13,5 +13,4 @@ try:
 except ValueError:
     print 'Error'
 
-
 lista.close()
