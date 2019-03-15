@@ -10,3 +10,5 @@
 **location_weather.py**, check the weather forecast of the next 10 days;
 
 **dl_youtube**, download a video (.mp4) from youtube at the best quality possible; 
+
+**school**, automate my school routine;
