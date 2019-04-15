@@ -1,3 +1,5 @@
+#!usr/bin/env python
+
 import pafy
 
 url = raw_input("URL = ")

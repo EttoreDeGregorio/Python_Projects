@@ -1,3 +1,5 @@
+#!usr/bin/env python
+
 #Script che stampa le previsioni di fino a 10 giorni in base alla location
 
 from weather import Weather, Unit #weather-api
@@ -13,7 +15,6 @@ previsioni = luogo.forecast
 risp = " " 
 
 for forecast in previsioni:
-
 	print "\n--------\n"
 
 	print "Data: ", forecast.date
