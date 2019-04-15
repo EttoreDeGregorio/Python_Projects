@@ -14,8 +14,10 @@ def Main():
 	print "--- VOLUME LOWERING ---\n"
 
 	loading()
+
+	volume = 0
 	
-	osascript.osascript("set volume output volume 0")
+	osascript.osascript("set volume output volume %d" %volume)
 	print "\n\nVolume lowerd succesfully"
 
 	if check_connection() == True:
