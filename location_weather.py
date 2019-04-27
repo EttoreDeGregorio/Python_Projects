@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!/usr/bin/python
 
 #Script che stampa le previsioni di fino a 10 giorni in base alla location
 
@@ -9,7 +9,7 @@ sp.call('clear', shell = True)
 
 weather = Weather(unit = Unit.CELSIUS)
 
-luogo = weather.lookup_by_location('milan')#cmabiare in base alla città
+luogo = weather.lookup_by_location('milan')#cambiare in base alla citta'
 previsioni = luogo.forecast
 
 risp = " " 
@@ -20,7 +20,7 @@ for forecast in previsioni:
 	print "Data: ", forecast.date
 	print "Condizioni: ", forecast.text
 	print "\n- Temperature -"
-	print "MAX:", forecast.high, "C ---  MIN:", forecast.low, "C"
+	print "MAX: {}C ---  MIN: {}C".format(forecast.high, forecast.low)
 
 	print "\n--------\n"
 

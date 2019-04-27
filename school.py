@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!/usr/bin/python
 
 import webbrowser	#to open browser
 import osascript 	#to run applescripts
@@ -17,13 +17,12 @@ def Main():
 
 	volume = 0
 	
-	osascript.osascript("set volume output volume %d" %volume)
+	osascript.osascript("set volume output volume {}".format(volume))
 	print "\n\nVolume lowerd succesfully"
 
 	if check_connection() == True:
 		#url Registro elettronico
 		url = "https://registroelettronico.nettunopa.it/ulogin.php"
-		count = 5
 
 		#open browser and webpage
 		print "\n\n--- OPENING BROSER ---\n"

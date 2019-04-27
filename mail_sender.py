@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!/usr/bin/python
 
 #Script che permette di madare email da un account GMAIL
 #bisogna disattivare la doppia autenticazione e permettere l'utilizzo di applicazioni non sicure
