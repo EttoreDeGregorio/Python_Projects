@@ -12,3 +12,5 @@
 **dl_youtube**, download a video (.mp4) from youtube at the best quality possible; 
 
 **school**, automate my school routine;
+
+**rec_fact**, recursive function that calculates the factorial of any munmber;
