@@ -13,4 +13,6 @@
 
 **school**, automate my school routine;
 
-**rec_fact**, recursive function that calculates the factorial of any munmber;
+**rec_fact**, recursive function that calculates the factorial of any number;
+
+**rec_fib**, recursive function that calculates the fibonacci value of any number;
